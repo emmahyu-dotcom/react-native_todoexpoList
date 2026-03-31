@@ -140,7 +140,6 @@ export default function App() {
             data={tasks}
             renderItem={renderItem}
             keyExtractor={(item) => item.key}
-            extraData={tasks}
           />
         </View>
             
